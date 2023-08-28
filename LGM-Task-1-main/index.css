@@ -1,0 +1,133 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     overflow-x: hidden;
+     
+ 
+}
+
+body{
+    background-color: black;
+}
+.navbar{
+    font-size: larger;
+    z-index: 10;
+    background-color: black;
+    color: white;
+}
+li{
+    padding-left: 25px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100vh;
+}
+.carousel-caption {
+    margin-bottom: 14%;
+    z-index: 10;
+}
+
+.zone-img{
+    margin-left: 6vw;
+}
+.outs{
+    background-color:white;
+}
+.ser-had{
+    font-weight: bold;
+   font-size:2rem;
+}
+.service-card{
+    display: flex;
+    justify-content:space-around;
+}
+
+.abt-p1{
+   color: white;
+   background-color: black;
+}
+.abt-had{
+  font-weight: bold;
+  color:royalblue ;
+  margin-top: 4%;
+}
+.learn-btn{
+    margin-left: 30%;
+    margin-bottom: 2%;
+}
+.services{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.row .card-t{
+    border-radius: 15px;
+
+    background-color: rgba(0,0,0,0.5);
+    margin-left: 20%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+.team-card{
+    background: rgb(251,0,0);
+background: linear-gradient(90deg, rgba(251,0,0,0.7206232834930848) 0%, rgba(0,0,0,0.7234244039412641) 96%, rgba(0,0,0,0.7682423311121324) 100%);
+}
+.c-card{
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+.feature{
+   color:white;
+}
+.Courses{
+    background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );
+}
+.change{
+    
+        display: flex;
+        justify-content:space-around;
+}
+.form-contact{
+    margin-right: 2%;
+}
+.form-contact>div{
+    margin-bottom: 10%;
+}
+.hello{
+    margin-top: 8%;
+}
+.map{
+    margin-top: 5%;
+}
+
+@media (max-width: 575.98px) { 
+    .service-card{
+        display: inline;
+    }
+    .row .card{
+        margin-left: 14%;
+      
+    }
+    .change{
+        display: inline;
+     
+    }
+    .form-contact{
+      background-color:rgb(22, 196, 226);
+    }
+    .map-responsive{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+    }
+    .map-responsive iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+    
+ }
